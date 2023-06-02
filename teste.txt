@@ -1,0 +1,10 @@
+1° Cadastro de dados:
+-Pegar os valores digitado pelo usuario
+-Criar um objeto com os valores digitado pelo usuario
+-Adicionar o objeto a uma lista
+-Transformar a lista em uma coleção e adicionar em uma base de dados
+
+2° Login
+-Verificar se os dados digitados pelo usuario condizem com os dados cadastrados
+-Se os dados forem corretos (mensagem "Bem Vindo ao nosso site")
+-Se os dados forem incorretos (mensagem "Dados incorretos")
