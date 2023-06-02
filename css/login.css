@@ -2,6 +2,8 @@
     --cor-botao: rgb(184, 11, 184);
     --cor-texto: #FFF;
     --cor-fundo: #121212;
+    --cor-botao-login-hover: rgb(249, 178, 252);
+    --cor-botao-login:  #A70E78;   
 }
 
 *{
@@ -81,7 +83,7 @@ li:hover{
 }
 
 .btnlogin:hover{
-    background-color:rgb(249, 178, 252);
+    background-color: var(--cor-botao-login-hover);
     cursor: pointer;
 }
 
@@ -91,11 +93,15 @@ p{
 
 #cadastrar-login{
     text-decoration: none;
-    color: #A70E78;
+    color: var(--cor-botao-login);
 }
 
 #cadastrar-login:visited{
-    color: #A70E78;
+    color: var(--cor-botao-login);
+}
+
+#cadastrar-login:hover{
+    color: var(--cor-botao-login-hover);
 }
 
  @media only screen and (max-width:600px){

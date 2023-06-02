@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    text-decoration: none;
 }
 
 body{
@@ -111,4 +112,23 @@ h1{
     background-color: #A70E78;
     color: white;
     cursor: pointer;
+}
+
+p{
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+#cadastrar{
+    text-decoration: none;
+}
+
+#cadastrar:active{
+    text-decoration: none;
+}
+
+#cadastrar:hover{
+
+    color: rgb(249, 178, 252);
+
 }
