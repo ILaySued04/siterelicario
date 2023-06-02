@@ -79,6 +79,12 @@ li:hover{
     padding: 5px;
     border-radius: 3px;
 }
+
+.btnlogin:hover{
+    background-color:rgb(249, 178, 252);
+    cursor: pointer;
+}
+
  @media only screen and (max-width:600px){
     .corpo-login{
         flex-direction: column;
