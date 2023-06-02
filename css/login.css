@@ -1,0 +1,86 @@
+:root{
+    --cor-botao: rgb(184, 11, 184);
+    --cor-texto: #FFF;
+    --cor-fundo: #121212;
+}
+
+*{
+
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    width: 90%;
+    margin: auto;
+}
+ /*Area de navegacao da pagina*/
+#nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/*logo "relicario"*/
+#logo{
+    color: var(--cor-botao) ;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;   
+}
+
+ul{
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    color: var(--cor-texto);
+}
+
+li:hover{
+    color: var(--cor-botao);
+    font-weight: 900;
+    cursor: pointer;
+}
+/*area corpo site*/
+.corpo-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-inputs-login{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#img-login{
+    height: 200px;
+}
+
+.inlogin{
+   color: var(--cor-texto);
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem  ;
+}
+
+.btnlogin{
+    background-color: #A70E78;    
+    width: 50px;
+    align-self: center;
+    font-size: 14px;
+    color: var(--cor-texto);
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+ @media only screen and (max-width:600px){
+    .corpo-login{
+        flex-direction: column;
+    }
+ }
