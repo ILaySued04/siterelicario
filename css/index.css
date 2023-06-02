@@ -46,7 +46,17 @@ li:hover{
 }
 
 a:visited{
-    color: white;
+    color: rgb(184, 11, 184) ;
+
+}
+
+a:active{
+    color:  rgb(184, 11, 184) ;
+}
+
+#login a:hover{
+    color:  rgb(184, 11, 184) ;
+
 }
 
 /*Corpo do site*/

@@ -85,6 +85,19 @@ li:hover{
     cursor: pointer;
 }
 
+p{
+    color: #FFF;
+}
+
+#cadastrar-login{
+    text-decoration: none;
+    color: #A70E78;
+}
+
+#cadastrar-login:visited{
+    color: #A70E78;
+}
+
  @media only screen and (max-width:600px){
     .corpo-login{
         flex-direction: column;
