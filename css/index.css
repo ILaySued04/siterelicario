@@ -121,6 +121,7 @@ p{
 
 #cadastrar{
     text-decoration: none;
+    color: #A70E78;
 }
 
 #cadastrar:active{
@@ -132,3 +133,92 @@ p{
     color: rgb(249, 178, 252);
 
 }
+
+
+@media only screen and (max-width:399px){
+
+    #nav{
+        flex-direction: column;
+    }
+
+    #logo{
+        align-self: center;
+    }
+
+    ul{
+        align-self: center;
+        margin-right: 50px;
+    }
+
+    .corpo{
+        justify-content: center;
+        align-self: center;
+    }
+
+    img{
+        height: 330px;
+    }
+    
+    h1{
+        font-size: 20px !important ;
+    }
+ }
+
+@media only screen and (max-width:400px){
+
+    #nav{
+        flex-direction: column;
+    }
+
+    #logo{
+        align-self: center;
+    }
+
+    ul{
+        align-self: center;
+        margin-right: 50px;
+    }
+
+    .corpo{
+        justify-content: center;
+        align-self: center;
+    }
+
+    img{
+        height: 330px;
+    }
+    
+    h1{
+        font-size: 21px;
+    }
+ }
+
+ 
+@media only screen and (max-width:600px){
+
+    #nav{
+        flex-direction: column;
+    }
+
+    #logo{
+        align-self: center;
+    }
+
+    ul{
+        align-self: center;
+        margin-right: 50px;
+    }
+
+    .corpo{
+        justify-content: center;
+        align-self: center;
+    }
+
+    img{
+        height: 330px;
+    }
+    
+    h1{
+        font-size: 21px;
+    }
+ }
