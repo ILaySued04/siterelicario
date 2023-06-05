@@ -104,6 +104,15 @@ p{
     color: var(--cor-botao-login-hover);
 }
 
+.div-mensagem{
+    display: none;
+    color: white;
+}
+
+.div-mensagem-negada{
+    display: block;
+}
+
  @media only screen and (max-width:600px){
     .corpo-login{
         flex-direction: column;
