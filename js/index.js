@@ -1,4 +1,5 @@
 const btnCadastrar =  document.getElementById('btnCadastrar');
+const login = document.getElementById("login")
 
 let listaCadastros = [];
 
@@ -8,6 +9,7 @@ let senha = document.getElementById('senha-cadastro');
 
 /*Pegando valores e retornando em objeto */
 function pegandoValor(usuario, email, senha) {
+
     let obj = {
         nome:usuario,
         email:email,
@@ -18,6 +20,7 @@ function pegandoValor(usuario, email, senha) {
 
 /*Adicionando objetos na lista */
 function adicinarObjetoLista(){
+
     listaCadastros.push(pegandoValor(usuario.value, email.value, senha.value))
 }
 
@@ -35,9 +38,17 @@ function inserindoLocalStorage(colecao){
     window.localStorage.setItem("objeto",colecao)
 }
 
-btnCadastrar.addEventListener('click', () => {
-    adicinarObjetoLista()
+login.addEventListener("click", () => {
+
     const lista = transformandoListaString(listaCadastros)
     inserindoLocalStorage(lista)
+})
+
+btnCadastrar.addEventListener('click', () => {
+    adicinarObjetoLista()
+
+    usuario.value = ''
+    email.value = ''
+    senha.value = ''
 });
 
