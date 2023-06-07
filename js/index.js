@@ -15,6 +15,7 @@ function pegandoValor(usuario, email, senha) {
         email:email,
         senha:senha,
     }
+    
     return obj;
 }
 
